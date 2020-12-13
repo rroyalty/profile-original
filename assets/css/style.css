@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #A89991;
+}
+
+/* Color Wheel */
+
+/* Feathers and Earth */
+
+.taupe-bg {
+    background: #A89991;
+}
+
+.cool-gray-bg {
+    background: #2B2F35;
+}
+
+.sage-green-bg {
+    background: #535E4B;
+}
+
+.navy-blue-bg {
+    background: #133249;
+}
+
+.taupe-font {
+    color: #A89991;
+}
+
+.cool-gray-font {
+    color: #2B2F35;
+}
+
+.sage-green-font {
+    color: #535E4B;
+}
+
+.navy-blue-font {
+    color: #133249;
+}
+
+nav.formatting {
+    width: 100%!important;
+    height: 50px!important;
+}
+
+.font-raleway {
+    font-family: 'Raleway', sans-serif;
+}
