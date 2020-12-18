@@ -1,45 +1,36 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    color: #A89991;
-}
 
 /* Color Wheel */
 
 .mirage-bg {
-    background: #181D27;
+    background: #181D27 !important;
 }
 
 .indian-khaki-bg {
-    background: #C4AC91;
+    background: #C4AC91 !important;
 }
 
 .pelorous-bg {
-    background: #2DAAB6;
+    background: #2DAAB6 !important;
 }
 
 .matisse-bg {
-    background: #146CA1;
+    background: #146CA1 !important;
 }
 
 .mirage-font {
-    color: #181D27;
+    color: #181D27  !important;
 }
 
 .indian-khaki-font {
-    color: #C4AC91;
+    color: #C4AC91  !important;
 }
 
 .pelorous-font {
-    color: #2DAAB6;
+    color: #2DAAB6  !important;
 }
 
 .matisse-font {
-    color: #146CA1;
+    color: #146CA1  !important;
 }
 
 /* End Color Wheel */
@@ -71,19 +62,6 @@ i.crown {
     top: 14px;
     color: gold;
     z-index: 0;
-}
-
-.fixed {
-    position: fixed;
-}
-
-.absolute {
-    position: absolute;
-}
-
-.navButtons-right {
-    position: absolute;
-    right: 40px;
 }
 
 img.background {
