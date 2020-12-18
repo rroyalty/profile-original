@@ -10,38 +10,42 @@ body {
 
 /* Color Wheel */
 
-/* Feathers and Earth */
-
-.taupe-bg {
-    background: #A89991;
+.mirage-bg {
+    background: #181D27;
 }
 
-.cool-gray-bg {
-    background: #2B2F35;
+.indian-khaki-bg {
+    background: #C4AC91;
 }
 
-.sage-green-bg {
-    background: #535E4B;
+.pelorous-bg {
+    background: #2DAAB6;
 }
 
-.navy-blue-bg {
-    background: #133249;
+.matisse-bg {
+    background: #146CA1;
 }
 
-.taupe-font {
-    color: #A89991;
+.mirage-font {
+    color: #181D27;
 }
 
-.cool-gray-font {
-    color: #2B2F35;
+.indian-khaki-font {
+    color: #C4AC91;
 }
 
-.sage-green-font {
-    color: #535E4B;
+.pelorous-font {
+    color: #2DAAB6;
 }
 
-.navy-blue-font {
-    color: #133249;
+.matisse-font {
+    color: #146CA1;
+}
+
+/* End Color Wheel */
+
+nav {
+    z-index: 1;
 }
 
 nav.nav-formatting {
@@ -81,3 +85,27 @@ i.crown {
     position: absolute;
     right: 40px;
 }
+
+img.background {
+    z-index: 0;
+
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.background {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }
