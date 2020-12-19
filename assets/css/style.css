@@ -48,6 +48,17 @@ nav {
     z-index: 1;
 }
 
+div.overflow {
+    overflow: auto;
+}
+
+div.p-card-margins {
+    z-index: 2;
+    width: 100% !important;
+    margin-top: 70px;
+    max-height: 350px;
+}
+
 /* Overriding Bootstrap code.*/
 button.navbar-toggler:focus {
     box-shadow: none;
@@ -66,11 +77,12 @@ div.container-sm {
 }
 /* End Overriding Bootstrap code.*/
 
+
 /* Background code taken from css-tricks.com*/
 img.bg {
     z-index: 0;
     min-height: 100%;
-    min-width: 992px;
+    min-width: 1400px;
     width: 100%;
     height: auto;
     position: fixed;
@@ -78,17 +90,20 @@ img.bg {
     left: 0;
   }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1400px) {
     img.bg {
         left: 50%;
-        margin-left: -496px;
+        margin-left: -700px;
     }
 }
 /* End background code taken from css-tricks.com*/
 
-div.p-container-margins {
-    display: flex;
-    
-    z-index: 2;
-    margin-top: 70px;
-}
+
+/* @media screen and (max-height: 864px) {
+    div.p-card-margins {
+        z-index: 2;
+        width: 100% !important;
+        margin-top: 70px;
+        max-height: 350px;
+    }
+} */
