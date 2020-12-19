@@ -1,5 +1,5 @@
 
-/* Color Wheel */
+/* Color Wheel - Pallete generated using the repository background image on canva.com */
 .mirage-bg {
     background: #181D27 !important;
 }
@@ -39,7 +39,6 @@
 .indian-khaki-border {
     border-color: #C4AC91  !important;
 }
-
 /* End Color Wheel */
 
 
@@ -49,40 +48,39 @@
 }
 /* End Custom Fonts */
 
+/* Ryan CSS*/
+/*Nav Index*/
 nav {
     z-index: 1;
 }
 
+/*Card Overflow*/
 div.overflow {
     overflow: auto;
 }
 
-div.container-maxHeight {
-    max-height: 50%;
-}
-
+/* Custom Card Margins. Bootstrap sizing didn't seem to want to work for this one... */
 div.p-card-margins {
     z-index: 2;
     width: 100% !important;
     margin-top: 70px;
     max-height: 425px;
 }
+/*End Ryan CSS*/
 
 /* Overriding Bootstrap code.*/
+/*Got rid of ugly shadow around hamburger button*/
 button.navbar-toggler:focus {
     box-shadow: none;
-  }
+}
 
+/*Collapsed/Expanded Menu icons change colors now.*/
 button.navbar-toggler.collapsed {
     color: #146CA1  !important;
-  }
+}
 
 button.navbar-toggler {
     color: #2DAAB6 !important;
-}
-
-div.container-sm {
-    width: 100%;
 }
 /* End Overriding Bootstrap code.*/
 
