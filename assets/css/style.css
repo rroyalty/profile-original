@@ -70,36 +70,25 @@ div.container-sm {
 img.bg {
     z-index: 0;
     min-height: 100%;
-    min-width: 1024px;
+    min-width: 992px;
     width: 100%;
     height: auto;
     position: fixed;
     top: 0;
     left: 0;
   }
-/* End background code taken from css-tricks.com*/
-
-
-div.p-container-margins {
-    z-index: 1;
-    margin-top: 70px;
 
 @media screen and (max-width: 992px) {
     img.bg {
-      left: 50%;
-      margin-left: -496px;
+        left: 50%;
+        margin-left: -496px;
     }
-  }
+}
+/* End background code taken from css-tricks.com*/
 
-@media screen and (min-width: 992px) {
-
-  }
-
-@media screen and (min-width: 768px) {
-
-  }
-
-@media screen and (min-width: 576px) {
-
-  }
-
+div.p-container-margins {
+    display: flex;
+    
+    z-index: 2;
+    margin-top: 70px;
+}
