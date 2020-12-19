@@ -55,7 +55,7 @@ nav {
 }
 
 /*Card Overflow*/
-div.overflow {
+.overflow {
     overflow: auto;
 }
 
@@ -69,6 +69,13 @@ div.p-card-margins {
 
 div.c-card-width {
     max-width: 500px;
+}
+
+img.iconSizing {
+    height: auto;
+    width: auto;
+    max-height: 64px;
+    max-width: 64px;
 }
 
 form.c-form-margins {
