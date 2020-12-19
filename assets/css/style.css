@@ -1,6 +1,5 @@
 
 /* Color Wheel */
-
 .mirage-bg {
     background: #181D27 !important;
 }
@@ -33,57 +32,52 @@
     color: #146CA1  !important;
 }
 
+.matisse-border {
+    border-color: #146CA1  !important;
+}
 /* End Color Wheel */
+
+
+/* Custom Fonts */
+.font-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+/* End Custom Fonts */
 
 nav {
     z-index: 1;
 }
 
-nav.nav-formatting {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 80px;
-}
+/* Overriding Bootstrap code.*/
+button.navbar-toggler:focus {
+    box-shadow: none;
+  }
 
-.font-raleway {
-    font-family: 'Raleway', sans-serif;
-}
+button.navbar-toggler.collapsed {
+    color: #146CA1  !important;
+  }
 
-h1 {
-    margin: 0;
-    height: 100%;
-    vertical-align: center;
+button.navbar-toggler {
+    color: #2DAAB6 !important;
 }
+/* End Overriding Bootstrap code.*/
 
-i.crown {
-    position: absolute;
-    left: 60px;
-    top: 14px;
-    color: gold;
+/* Background code taken from css-tricks.com*/
+img.bg {
     z-index: 0;
-}
-
-img.background {
-    z-index: 0;
-
-    /* Set rules to fill background */
     min-height: 100%;
     min-width: 1024px;
-      
-    /* Set up proportionate scaling */
     width: 100%;
     height: auto;
-      
-    /* Set up positioning */
     position: fixed;
     top: 0;
     left: 0;
   }
   
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-    img.background {
+  @media screen and (max-width: 1024px) {
+    img.bg {
       left: 50%;
-      margin-left: -512px;   /* 50% */
+      margin-left: -512px;
     }
   }
+/* End background code taken from css-tricks.com*/
