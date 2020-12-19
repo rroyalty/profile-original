@@ -59,7 +59,7 @@ div.overflow {
     overflow: auto;
 }
 
-/* Custom Card Margins. Bootstrap sizing didn't seem to want to work for this one... */
+/* Custom Element Margins. Bootstrap sizing didn't seem to want to work for these... */
 div.p-card-margins {
     z-index: 2;
     width: 100% !important;
@@ -67,10 +67,14 @@ div.p-card-margins {
     max-height: 425px;
 }
 
+div.c-card-width {
+    max-width: 500px;
+}
+
 form.c-form-margins {
     z-index: 2;
     width: auto;
-    margin-top: 70px;
+    margin: 20px;
     position: relative;
 }
 /*End Ryan CSS*/
@@ -81,7 +85,7 @@ button.navbar-toggler:focus {
     box-shadow: none;
 }
 
-/*Collapsed/Expanded Menu icons change colors now.*/
+/*Collapsed/Expanded Menu Icon changes colors now.*/
 button.navbar-toggler.collapsed {
     color: #146CA1  !important;
 }
