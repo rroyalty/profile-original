@@ -64,7 +64,7 @@ nav {
     overflow: auto;
 }
 
-/* Custom Element Margins. Bootstrap sizing didn't seem to want to work for these... */
+/*Ryan's Custom CSS elements*/
 div.p-card-margins {
     z-index: 2;
     width: 100% !important;
@@ -89,6 +89,7 @@ form.c-form-margins {
     margin: 20px;
     position: relative;
 }
+
  p {
      display: block;
      text-align: justify;
