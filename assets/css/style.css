@@ -73,11 +73,25 @@ img.bg {
     top: 0;
     left: 0;
   }
+/* End background code taken from css-tricks.com*/
+
   
-  @media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
     img.bg {
       left: 50%;
-      margin-left: -512px;
+      margin-left: -496px;
     }
   }
-/* End background code taken from css-tricks.com*/
+
+@media screen and (min-width: 992px) {
+
+  }
+
+@media screen and (min-width: 768px) {
+
+  }
+
+@media screen and (min-width: 400px) {
+
+  }
+
