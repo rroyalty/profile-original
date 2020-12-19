@@ -68,6 +68,7 @@ nav {
 div.p-card-margins {
     z-index: 2;
     width: 100% !important;
+    margin: auto;
     margin-top: 70px;
     max-height: 425px;
 }
@@ -90,10 +91,21 @@ form.c-form-margins {
     position: relative;
 }
 
- p {
+ p.bio-paragraphs {
      display: block;
      text-align: justify;
  }
+
+ p.portfolio {
+    max-width: 300px;
+}
+
+div.portfolio {
+    max-width: 300px;
+}
+
+
+
 
 img.wrap-text {
     float: left;
@@ -103,6 +115,16 @@ img.wrap-text {
     height: auto;
     width: auto;
     margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+img.portfolio{
+    max-height: 300px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 0%;
 }
 /*End Ryan CSS*/
 
