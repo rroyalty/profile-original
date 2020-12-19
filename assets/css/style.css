@@ -52,6 +52,10 @@ div.overflow {
     overflow: auto;
 }
 
+div.container-maxHeight {
+    max-height: 50%;
+}
+
 div.p-card-margins {
     z-index: 2;
     width: 100% !important;
@@ -99,14 +103,14 @@ img.bg {
 /* End background code taken from css-tricks.com*/
 
 
-@media screen and (min-height: 0px) and (min-width: 0px) {
+/* @media screen and (min-height: 0px) and (min-width: 0px) {
     div.p-card-margins {
         z-index: 2;
         width: 100% !important;
         margin-top: 70px;
         max-height: 350px;
     }
-}
+} */
 
 
 /* @media screen and (max-height: 864px) {
