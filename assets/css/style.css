@@ -32,6 +32,10 @@
     color: #146CA1  !important;
 }
 
+.white-font {
+    color: white  !important;
+}
+
 .matisse-border {
     border-color: #146CA1  !important;
 }
@@ -39,6 +43,7 @@
 .indian-khaki-border {
     border-color: #C4AC91  !important;
 }
+
 /* End Color Wheel */
 
 
@@ -83,6 +88,20 @@ form.c-form-margins {
     width: auto;
     margin: 20px;
     position: relative;
+}
+ p {
+     display: block;
+     text-align: justify;
+ }
+
+img.wrap-text {
+    float: left;
+    display: block;
+    max-height: 350px;
+    max-width: 350px;
+    height: auto;
+    width: auto;
+    margin-right: 20px;
 }
 /*End Ryan CSS*/
 
