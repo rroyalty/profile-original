@@ -66,6 +66,12 @@ div.p-card-margins {
     margin-top: 70px;
     max-height: 425px;
 }
+
+form.c-form-margins {
+    z-index: 2;
+    width: 100% !important;
+    margin-top: 70px;
+}
 /*End Ryan CSS*/
 
 /* Overriding Bootstrap code.*/
