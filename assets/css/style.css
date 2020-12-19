@@ -36,6 +36,10 @@
     color: white  !important;
 }
 
+.mirage-border {
+    border-color: #181D27  !important;
+}
+
 .matisse-border {
     border-color: #146CA1  !important;
 }
@@ -97,33 +101,27 @@ form.c-form-margins {
      text-align: justify;
  }
 
- p.portfolio {
-    max-width: 300px;
+ p.portf-paragraphs {
+    text-align: center;
+    color: #146CA1  !important;
+    background: #181D27 !important;
+    width: auto;
 }
 
-div.portfolio {
-    max-width: 300px;
+p.portf-paragraphs:hover {
+    text-align: center;
+    color: #2DAAB6  !important;
+    background: #181D27 !important;
+    width: auto;
 }
-
 
 img.wrap-text {
     float: left;
     display: block;
     max-height: 350px;
     max-width: 350px;
-    height: auto;
-    width: auto;
     margin-right: 20px;
     padding-bottom: 20px;
-}
-
-img.portfolio{
-    max-height: 300px;
-    max-width: 300px;
-    height: auto;
-    width: auto;
-    margin: auto;
-    padding: 0%;
 }
 /*End Ryan CSS*/
 
