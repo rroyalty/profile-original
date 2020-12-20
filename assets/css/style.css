@@ -68,6 +68,10 @@ nav {
     overflow: auto;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
+
 /*Ryan's Custom CSS elements*/
 section.p-card-margins {
     z-index: 2;
@@ -78,7 +82,7 @@ section.p-card-margins {
     max-height: 425px;
 }
 
-div.c-card-width {
+section.c-card-width {
     max-width: 500px;
 }
 
