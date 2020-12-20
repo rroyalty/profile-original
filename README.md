@@ -57,8 +57,8 @@ Bootcamp TA: ![Mike]https://michaelfearnley.com/
 Bootstrap v5.0: ![Bootstrap]https://getbootstrap.com/  
 Fontawesome ![Fontawsome]https://fontawesome.com/  
 Google Fonts ![GoogleFonts]https://fonts.google.com/  
-Bill Watterson (Calvin and Hobbes)
-Various unnamed meme artists
+Bill Watterson (Calvin and Hobbes)  
+Various unnamed meme artists  
 
 
 ## License
