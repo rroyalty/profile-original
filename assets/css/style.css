@@ -103,15 +103,15 @@ form.c-form-margins {
 
  p.portf-paragraphs {
     text-align: center;
-    color: #146CA1  !important;
-    background: #181D27 !important;
+    background: #146CA1  !important;
+    color: #181D27 !important;
     width: auto;
 }
 
 p.portf-paragraphs:hover {
     text-align: center;
-    color: #2DAAB6  !important;
-    background: #181D27 !important;
+    background: #2DAAB6  !important;
+    color: #181D27 !important;
     width: auto;
 }
 
