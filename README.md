@@ -18,9 +18,9 @@ The following is the README for the project rroyalty.github.io, which is the rep
 ### Small  
 ![Portfolio-Small](https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/400-portfolio.png)  
 ### Medium  
-![Portfolio-Medium](https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/768-portfolio.png  
+![Portfolio-Medium](https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/768-portfolio.png)  
 ### Large  
-![Portfolio-Large]https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/992-portfolio.png)  
+![Portfolio-Large](https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/992-portfolio.png)  
 ## ---------------  
 ## Contact  
 ### Small  
