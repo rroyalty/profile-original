@@ -1,31 +1,64 @@
 # rroyalty.github.io (Homework #2 - Profile!)
 
-## Description 
+## Description  
 
-Well this one was much tougher than homework #1. This project certainly isn't perfect, but I've been working on it for hours and boy am I burnt out. 
-
-The following is the README for the project rroyalty.github.io, which is the repository created for the second homework assignment of the UNH Bootcamp course. For the assignment, I was given the task of creating my very own digital profile. We were given the following examples to loosely recreate.
-
-![Example finished site]
-
-The HTML and CSS code was inefficiently organized and not very accessible to anybody who might be looking at the code. The assignment required us to refactor the code in such a way that it was much more user accessible, yet loaded a page nearly identical to the example provided.  
-
-## Installation
-
+Well this one was much tougher than homework #1. This project certainly isn't perfect, but I've been working on it for hours and boy am I burnt out.  
+  
+The following is the README for the project rroyalty.github.io, which is the repository created for the second homework assignment of the UNH Bootcamp course. For the assignment, I was given the task of creating my very own digital profile. We were given the following examples to loosely recreate with our own personal information and style.  
+  
+## Index  
+### Small  
+![Biography-Small]https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/400-index.png  
+### Medium  
+![Biography-Medium]https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/768-index.png  
+### Large  
+![Biography-Large]https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/992-index.png  
+## ---------------  
+## Portfolio  
+### Small  
+![Portfolio-Small]https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/400-portfolio.png  
+### Medium  
+![Portfolio-Medium]https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/768-portfolio.png  
+### Large  
+![Portfolio-Large]https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/992-portfolio.png  
+## ---------------  
+## Contact  
+### Small  
+![Contact-Small]https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/400-contact.png  
+### Medium  
+![Contact-Medium]https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/768-contact.png  
+### Large  
+![Contact-Large]https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/992-contact.png  
+  
+This homework was... time consuming. There are a few things that I definitely could have done better, but in general with the final result. There are not very many semantic elements, unfortunately, because I finished the project without using them and at the end I was afraid to add them for fear of messing up my code (in addition to just being worn out from working on the project.) So, sorry about that.  
+  
+I have an 'extra' html page, as I opted to have my home screen and my biography be two separate pages. Hope that's okay.  
+  
+Again, I acknowledge that the project isn't perfect.  
+  
+## Installation  
+  
 The project is a website; no installation necessary.  
-
-## Usage 
-
+  
+## Usage  
+  
 Below are the links associated with this project.  
-
-![]https://rroyalty.github.io/H1-automatic-octo-happiness/  
-![Repository]https://github.com/rroyalty/rroyalty.github.io
-
-
-## Credits
-
+  
+![Repository]https://github.com/rroyalty/rroyalty.github.io  
+![Index]https://rroyalty.github.io/index.html  
+![Biography]https://rroyalty.github.io/biography.html  
+![Portfolio]https://rroyalty.github.io/portfolio.html  
+![Contact]https://rroyalty.github.io/contact.html  
+  
+## Credits  
+  
 Bootcamp Teacher: ![ScottByers]https://github.com/switch120  
 Bootcamp TA: ![Mike]https://michaelfearnley.com/  
+Bootstrap v5.0: ![Bootstrap]https://getbootstrap.com/  
+Fontawesome ![Fontawsome]https://fontawesome.com/  
+Google Fonts ![GoogleFonts]https://fonts.google.com/  
+Bill Watterson (Calvin and Hobbes)
+Various unnamed meme artists
 
 
 ## License
