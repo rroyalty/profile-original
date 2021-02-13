@@ -6,30 +6,6 @@ Well this one was much tougher than homework #1. This project certainly isn't pe
   
 The following is the README for the project rroyalty.github.io, which is the repository created for the second homework assignment of the UNH Bootcamp course. For the assignment, I was given the task of creating my very own digital profile. We were given the following examples to loosely recreate with our own personal information and style.  
   
-## Index  
-### Small  
-![Biography-Small](https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/400-index.png)  
-### Medium  
-![Biography-Medium](https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/768-index.png)  
-### Large  
-![Biography-Large](https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/992-index.png)  
-## ---------------  
-## Portfolio  
-### Small  
-![Portfolio-Small](https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/400-portfolio.png)  
-### Medium  
-![Portfolio-Medium](https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/768-portfolio.png)  
-### Large  
-![Portfolio-Large](https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/992-portfolio.png)  
-## ---------------  
-## Contact  
-### Small  
-![Contact-Small](https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/400-contact.png)  
-### Medium  
-![Contact-Medium](https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/768-contact.png)  
-### Large  
-![Contact-Large](https://github.com/rroyalty/rroyalty.github.io/blob/main/homework%20examples/992-contact.png)  
-  
 This homework was... time consuming. There are a few things that I definitely could have done better, but in general with the final result. There are not very many semantic elements, unfortunately, because I finished the project without using them and at the end I was afraid to add them for fear of messing up my code (in addition to just being worn out from working on the project.) So, sorry about that.  
   
 I have an 'extra' html page, as I opted to have my home screen and my biography be two separate pages. Hope that's okay.  

@@ -50,6 +50,45 @@
 
 /* End Color Wheel */
 
+.cursor-default {
+    cursor: default;
+}
+
+.nav-border {
+    border: solid;
+    border-radius: 0;
+    border-color:#C4AC91;
+    border-width: 0px;
+    border-bottom-width: 3px;
+}
+
+.navbar-link::after {
+    border-color: #C4AC91 !important;
+}
+
+.navbar-link:hover::after {
+    border-color:#2DAAB6 !important;
+}
+
+.navbar-hover:hover{
+    background-color:#181D27 !important;
+    color:#2DAAB6  !important;
+}
+
+.navbar-hover{
+    background-color:#181D27 !important;
+    color:#C4AC91  !important;
+}
+
+.nav-menu:active{
+    background-color:#181D27 !important;
+    color:#2DAAB6  !important;
+}
+
+
+.menu-width {
+    max-width: 90px;
+}
 
 /* Custom Fonts */
 .font-raleway {
@@ -58,10 +97,6 @@
 /* End Custom Fonts */
 
 /* Ryan CSS*/
-/*Nav Index*/
-nav {
-    z-index: 1;
-}
 
 /*Card Overflow*/
 .overflow {
@@ -89,8 +124,8 @@ section.c-card-width {
 img.iconSizing {
     height: auto;
     width: auto;
-    max-height: 64px;
-    max-width: 64px;
+    max-height: 42px;
+    max-width: 42px;
 }
 
 form.c-form-margins {
@@ -130,21 +165,6 @@ img.wrap-text {
 /*End Ryan CSS*/
 
 /* Overriding Bootstrap code.*/
-/*Got rid of ugly shadow around hamburger button*/
-button.navbar-toggler:focus {
-    box-shadow: none;
-}
-
-/*Collapsed/Expanded Menu Icon changes colors now.*/
-button.navbar-toggler.collapsed {
-    color: #146CA1  !important;
-}
-
-button.navbar-toggler {
-    color: #2DAAB6 !important;
-}
-/* End Overriding Bootstrap code.*/
-
 
 /* Background code taken from css-tricks.com*/
 img.bg {
