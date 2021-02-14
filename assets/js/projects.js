@@ -16,8 +16,16 @@ const projectList =
             description: "A timed, multiple choice, pop culture quiz that saves your highscores!", 
             domain: "https://rroyalty.github.io/code-quiz/",
             github: "https://github.com/rroyalty/code-quiz/",
-            imgSrc: "https://github.com/rroyalty/code-quiz/blob/main/assets/images/codeQuizQuestionsScreen.jpg",
+            imgSrc: "https://raw.githubusercontent.com/rroyalty/code-quiz/main/assets/images/codeQuizQuestionsScreen.jpg",
             icon: "fas fa-question",
+        },
+        {   
+            name: "Weather Dashboard",             
+            description: "Check the local weather, or search for weather somewhere else!", 
+            domain: "https://rroyalty.github.io/weather-dashboard/",
+            github: "https://github.com/rroyalty/weather-dashboard/",
+            imgSrc: "https://raw.githubusercontent.com/rroyalty/weather-dashboard/main/assets/images/examples/weather-screenshot.jpg",
+            icon: "fas fa-cloud-sun-rain",
         },
     ]
 };

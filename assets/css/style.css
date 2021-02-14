@@ -158,6 +158,10 @@
     margin-top: 20px;
 }
 
+.pad-20 {
+    padding: 20px;
+}
+
 .center-text {
     text-align: center;
 }
