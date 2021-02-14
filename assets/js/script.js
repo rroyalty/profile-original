@@ -5,31 +5,32 @@ $(document).ready(function() {
         rowChildren(element.name, element.icon, index, arrLength);
     });
 
-    populateProject(projectList.projects[0])
+    populateProject(projectList.projects[0]);
 
     function populateProject(element) {
-        console.log(element)
+        $('#projectDetails').empty();
+        const {description, domain, github, _, imgSrc, name} = element;
 
-        // `<div class="content">
-        //     <h1 class="indian-khaki-font center-text">${element}</h1>
-        // </div>
-        // <div class="card-content columns">
-        //     <div class="column">
-        //         <img src="https://raw.githubusercontent.com/tonipow3ll/drinks-and-dinner/main/images/mealdrink.png" alt="${element} Image">
-        //     </div>
-        //     <div class = "column">
-        //         <p>A website that takes ingredients you have in your house and offers you recipes to make with them!</p>
-        //         <div class="columns">
-        //         <div class="column center-text">
-        //             <a class="center-text" href="https://tonipow3ll.github.io/drinks-and-dinner/" alt="${element} URL">Check it out!</a>
-        //         </div>
-        //         <div class="column center-text">
-        //             <a href="https://github.com/tonipow3ll/drinks-and-dinner" alt="${element} Repository">Repository</a>
-        //         </div>
-        //         </div>
-        //     </div>
-        // </div>`
-
+        const projectDetails = `<div class="content">
+                                    <h1 class="indian-khaki-font center-text">${name}</h1>
+                                </div>
+                                <div class="card-content columns">
+                                    <div class="column">
+                                        <img src="${imgSrc}" alt="${name} Image">
+                                    </div>
+                                    <div class = "column">
+                                        <p class="pad-20">${description}</p>
+                                        <div class="columns">
+                                            <div class="column center-text">
+                                                <a class="center-text" href="${domain}" alt="${name} URL" target="_blank">Check it out!</a>
+                                            </div>
+                                            <div class="column center-text">
+                                                <a href="${github}" alt="${name} Repository" target="_blank">Repository</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>`
+        $("#projectDetails").append(projectDetails);
     };
 
     function rowChildren(text, icon, index, length) {
@@ -56,5 +57,21 @@ $(document).ready(function() {
     // Check for click events on the navbar burger icon
     $("#bioButton").on("click", function() {
         $('#bio').attr("hidden", function(_, attr){ return !attr});
+    });
+
+    $(".panel-block").on("click", function(event) {
+        const projectSearch = projectList.projects.filter((element) => { return element.name == event.target.innerText });
+        const _this = this;
+        $(".panel-block").removeClass("matisse-font");
+        $(".panel-block").addClass("indian-khaki-font");
+        $(".panel-block > span > i").removeClass("matisse-font");
+        $(".panel-block > span > i").addClass("indian-khaki-font");
+        $(_this).addClass("matisse-font");
+        $(_this).removeClass("indian-khaki-font");
+        $(_this).children().children().addClass("matisse-font");
+        $(_this).children().children().removeClass("indian-khaki-font");
+
+        populateProject(projectSearch[0]);
+
     });
   });
