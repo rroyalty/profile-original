@@ -27,5 +27,13 @@ const projectList =
             imgSrc: "https://raw.githubusercontent.com/rroyalty/weather-dashboard/main/assets/images/examples/weather-screenshot.jpg",
             icon: "fas fa-cloud-sun-rain",
         },
+        {   
+            name: "Daily Scheduler",             
+            description: "Schedule every hour of every day!", 
+            domain: "https://rroyalty.github.io/daily-scheduler/",
+            github: "https://github.com/rroyalty/daily-scheduler/",
+            imgSrc: "https://raw.githubusercontent.com/rroyalty/daily-scheduler/main/Example/DailySchedule.jpg",
+            icon: "far fa-clock",
+        },
     ]
 };

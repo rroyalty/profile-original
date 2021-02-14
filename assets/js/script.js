@@ -16,7 +16,7 @@ $(document).ready(function() {
                                 </div>
                                 <div class="card-content columns">
                                     <div class="column">
-                                        <img src="${imgSrc}" alt="${name} Image">
+                                        <a href="${imgSrc}" target="_blank"><img src="${imgSrc}" alt="${name} Image"></a>
                                     </div>
                                     <div class = "column">
                                         <p class="pad-20">${description}</p>
