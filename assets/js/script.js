@@ -54,11 +54,6 @@ $(document).ready(function() {
         $("#projectList").append(title);
     };
 
-    // Check for click events on the navbar burger icon
-    $("#bioButton").on("click", function() {
-        $('#bio').attr("hidden", function(_, attr){ return !attr});
-    });
-
     $(".panel-block").on("click", function(event) {
         const projectSearch = projectList.projects.filter((element) => { return element.name == event.target.innerText });
         const _this = this;
@@ -73,5 +68,15 @@ $(document).ready(function() {
 
         populateProject(projectSearch[0]);
 
+    });
+
+    $("#bioButton").on("click", function() {
+        $('#portfolio').attr("hidden", true);
+        $('#bio').attr("hidden", function(_, attr){ return !attr});
+    });
+
+    $("#portfolioButton").on("click", function() {
+        $('#bio').attr("hidden", true);
+        $("#portfolio").attr("hidden", function(_, attr){ return !attr});
     });
   });
