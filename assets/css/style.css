@@ -59,25 +59,43 @@
     border-radius: 0;
     border-color:#C4AC91;
     border-width: 0px;
-    border-bottom-width: 3px;
+    border-bottom-width: 2px;
 }
 
 .menu-border {
     border: solid;
     border-radius: 3;
     border-color:#C4AC91;
-    border-width: 3px;
+    border-width: 2px;
     border-top-width: 0px;
+}
+
+.projects-border {
+    border: solid;
+    border-radius: 3;
+    border-color:#C4AC91;
+    border-width: 2px;
+}
+
+.projectItem-border {
+    border: solid;
+    border-color:#C4AC91;
+    border-width: 0px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+}
+
+.lastItem-border {
+    border: solid;
+    border-color:#C4AC91;
+    border-width: 2px;
+    border-top-width: 0px;
+    border-radius: 3;
 }
 
 .navbar-link{
     background-color:#181D27 !important;
     color:#C4AC91  !important;
-}
-
-.navbar-link:hover{
-    background-color:#181D27 !important;
-    color:#2DAAB6  !important;
 }
 
 .navbar-link::after {
@@ -93,9 +111,19 @@
     color:#2DAAB6  !important;
 }
 
+.panel-block:hover {
+    background-color: #181D27 !important;
+    color: #2DAAB6 !important;
+}
+
+.navbar-link:hover{
+    background-color:#181D27 !important;
+    color:#2DAAB6  !important;
+}
+
 .navbar-hover:active {
-    background-color:#2DAAB6 !important;
     color:#181D27  !important;
+    background-color:#2DAAB6 !important;
 }
 
 .navbar-hover{
@@ -119,81 +147,26 @@
     padding: 14px;
 }
 
+.card-formatting {
+    padding: 10px;
+    border: solid;
+    border-color:#C4AC91;
+    border-width: 2px;
+    background-color:#181D27;
+    color: #C4AC91;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
 /* Custom Fonts */
 .font-raleway {
     font-family: 'Raleway', sans-serif;
 }
-/* End Custom Fonts */
 
-/* Ryan CSS*/
-
-/*Card Overflow*/
-.overflow {
-    overflow: auto;
-}
-
-.overflow-hidden {
-    overflow: hidden;
-}
-
-/*Ryan's Custom CSS elements*/
-section.p-card-margins {
-    z-index: 2;
-    width: 100% !important;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 70px;
-    max-height: 425px;
-}
-
-section.c-card-width {
-    max-width: 500px;
-}
-
-img.iconSizing {
-    height: auto;
-    width: auto;
-    max-height: 42px;
-    max-width: 42px;
-}
-
-form.c-form-margins {
-    z-index: 2;
-    width: auto;
-    margin: 20px;
-    position: relative;
-}
-
- p.bio-paragraphs {
-     display: block;
-     text-align: justify;
- }
-
- p.portf-paragraphs {
-    text-align: center;
-    background: #146CA1  !important;
-    color: #181D27 !important;
-    width: auto;
-}
-
-p.portf-paragraphs:hover {
-    text-align: center;
-    background: #2DAAB6  !important;
-    color: #181D27 !important;
-    width: auto;
-}
-
-img.wrap-text {
-    float: left;
-    display: block;
-    max-height: 350px;
-    max-width: 350px;
-    margin-right: 20px;
-    padding-bottom: 20px;
-}
-/*End Ryan CSS*/
-
-/* Overriding Bootstrap code.*/
 
 /* Background code taken from css-tricks.com*/
 img.bg {
