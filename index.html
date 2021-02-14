@@ -38,13 +38,13 @@
           <h3 class="navbar-item cursor-default indian-khaki-font">Ryan Royalty</h3>
 
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+            <div class="burger-div">
+              <i class="fas fa-hamburger burger-icon"></i>
+            </div>
           </a>
         </div>
       
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarBasicExample" class="navbar-menu mirage-bg">
           <div class="navbar-end">
             <a class="navbar-item indian-khaki-font navbar-hover">
               Bio
@@ -59,7 +59,7 @@
                 More
               </a>
       
-              <div class="navbar-dropdown indian-khaki-font mirage-bg menu-width menu-border">
+              <div id="menuHamburg" class="navbar-dropdown indian-khaki-font mirage-bg menu-width menu-border">
                 <a class="navbar-item navbar-hover">
                   Résumé
                 </a>
@@ -85,6 +85,7 @@
       </nav>
 
     <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/js/bulma.js"></script>
 
 </body>
