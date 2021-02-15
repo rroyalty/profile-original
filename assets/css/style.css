@@ -190,4 +190,10 @@ img.bg {
         margin-left: -700px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .menu-border {
+        border:transparent;
+    };
+}
 /* End background code taken from css-tricks.com*/
