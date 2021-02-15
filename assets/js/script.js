@@ -73,10 +73,13 @@ $(document).ready(function() {
     $("#bioButton").on("click", function() {
         $('#portfolio').attr("hidden", true);
         $('#bio').attr("hidden", function(_, attr){ return !attr});
+        $('#navbarID').removeClass("is-active");
     });
 
     $("#portfolioButton").on("click", function() {
         $('#bio').attr("hidden", true);
         $("#portfolio").attr("hidden", function(_, attr){ return !attr});
+        $('#navbarID').removeClass("is-active");
     });
+
   });
