@@ -12,7 +12,7 @@ const projectList =
             icon: "fas fa-utensils",
         },
         {   
-            name: "Code Quiz",             
+            name: "Pop Culture Trivia",             
             description: "A timed, multiple choice, pop culture quiz that saves your highscores!", 
             domain: "https://rroyalty.github.io/code-quiz/",
             github: "https://github.com/rroyalty/code-quiz/",
@@ -28,7 +28,7 @@ const projectList =
             icon: "fas fa-cloud-sun-rain",
         },
         {   
-            name: "Daily Scheduler",             
+            name: "Time Scheduler",             
             description: "Schedule every hour of every day!", 
             domain: "https://rroyalty.github.io/daily-scheduler/",
             github: "https://github.com/rroyalty/daily-scheduler/",

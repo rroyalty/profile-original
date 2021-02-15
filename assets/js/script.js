@@ -47,11 +47,11 @@ $(document).ready(function() {
             break;
         }
 
-        const title = `<a class="panel-block projectItem-border ${classAdd}">
+        const projectListItem = `<a class="panel-block projectItem-border ${classAdd}">
                         <span class="panel-icon">
                             <i class="${icon} ${iconAdd}" aria-hidden="true"></i>
                         </span>${text}</a>`;
-        $("#projectList").append(title);
+        $("#projectList").append(projectListItem);
     };
 
     $(".panel-block").on("click", function(event) {
@@ -83,3 +83,4 @@ $(document).ready(function() {
     });
 
   });
+
