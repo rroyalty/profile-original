@@ -21,11 +21,8 @@ The project is a website; no installation necessary.
 Below are the links associated with this project.  
   
 ![Repository]https://github.com/rroyalty/rroyalty.github.io  
-![Index]https://rroyalty.github.io/index.html  
-![Biography]https://rroyalty.github.io/biography.html  
-![Portfolio]https://rroyalty.github.io/portfolio.html  
-![Contact]https://rroyalty.github.io/contact.html  
-  
+![URL]https://rroyalty.github.io/index.html  
+
 ## Credits  
   
 Bootcamp Teacher: ![ScottByers]https://github.com/switch120  
