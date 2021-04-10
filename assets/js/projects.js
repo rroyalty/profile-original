@@ -12,6 +12,14 @@ const projectList =
             icon: "fas fa-utensils",
         },
         {   
+            name: "Stretch N' Strengthen",             
+            description: "An easy to use workout website for users to create custom workout routines.", 
+            domain: "http://stretch-n-strengthen.herokuapp.com/",
+            github: "https://github.com/crrmarchese/stretch-n-strengthen",
+            imgSrc: "https://raw.githubusercontent.com/tonipow3ll/drinks-and-dinner/main/images/stretch-n-strengthen.jpg",
+            icon: "fas fa-dumbbell",
+        },
+        {   
             name: "Pop Culture Trivia",             
             description: "A timed, multiple choice, pop culture quiz that saves your highscores!", 
             domain: "https://rroyalty.github.io/code-quiz/",
