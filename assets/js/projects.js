@@ -16,7 +16,7 @@ const projectList =
             description: "An easy to use workout website for users to create custom workout routines.", 
             domain: "http://stretch-n-strengthen.herokuapp.com/",
             github: "https://github.com/crrmarchese/stretch-n-strengthen",
-            imgSrc: "https://raw.githubusercontent.com/tonipow3ll/drinks-and-dinner/main/images/stretch-n-strengthen.jpg",
+            imgSrc: "https://raw.githubusercontent.com/crrmarchese/stretch-n-strengthen/main/public/assets/images/logo-main.png",
             icon: "fas fa-dumbbell",
         },
         {   
