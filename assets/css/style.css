@@ -195,5 +195,9 @@ img.bg {
     .menu-border {
         border:transparent;
     };
+
+    .hide-email {
+        display: none;
+    }
 }
 /* End background code taken from css-tricks.com*/
