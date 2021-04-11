@@ -184,6 +184,10 @@ img.bg {
     left: 0;
   }
 
+.hide-email {
+    display: block;
+};
+
 @media screen and (max-width: 1400px) {
     img.bg {
         left: 50%;
@@ -197,7 +201,7 @@ img.bg {
     };
 
     .hide-email {
-        display: none;
-    }
+        display: none !important;
+    };
 }
 /* End background code taken from css-tricks.com*/
